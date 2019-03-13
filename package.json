@@ -15,6 +15,7 @@
     "url": "git+https://github.com/coryhouse/mock-api-example.git"
   },
   "dependencies": {
+    "faker": "4.1.0",
     "json-schema-faker": "0.5.0-rc16",
     "json-server": "0.8.22"
   },
