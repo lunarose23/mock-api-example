@@ -4,9 +4,10 @@ This is an example Mock API for rapid front-end development. I walk through how 
 
 ## Quick Start
 
-1. `npm install`
-2. `npm start`
-3. Load http://localhost:3001/users
+1. Change port in package.json to what port you want it on
+2. `npm install`
+3. `npm start`
+4. Load http://localhost:3001/users
 
 ## Next Steps
 
