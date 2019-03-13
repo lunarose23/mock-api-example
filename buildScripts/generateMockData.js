@@ -8,7 +8,7 @@ var jsf = require('json-schema-faker');
 var mockDataSchema = require('./mockDataSchema');
 var fs = require('fs');
 
-var json = JSON.stringify(jsf(mockDataSchema));
+var json = JSON.stringify(jsf.generate(mockDataSchema));
 
 fs.writeFile("./src/api/db.json", json, function (err) {
   if (err) {
