@@ -5,6 +5,8 @@
  */
 
 var jsf = require('json-schema-faker');
+jsf.extend('faker', () => require('faker'));
+
 var mockDataSchema = require('./mockDataSchema');
 var fs = require('fs');
 
